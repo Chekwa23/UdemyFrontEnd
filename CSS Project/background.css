@@ -1,0 +1,15 @@
+
+h1{
+  background: rgb(255,80,80);
+  /* border-color: blue;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 5px solid blue;
+}
+
+body{
+  background: url(https://imgc.artprintimages.com/img/print/underwater-background-in-ocean_u-l-q1046mx0.jpg?h=550&p=0&w=550&background=fbfbfb);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

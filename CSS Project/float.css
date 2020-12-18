@@ -1,0 +1,26 @@
+
+.one{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.two{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+}
+.three{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  clear: both;
+  margin-left: 500px;
+  box-shadow: 7px 6px 6px black;
+
+  /* border-radius: 15px 20px 30px 40px; */
+
+  border-radius: 15px;
+  transform: rotate(60deg);
+}

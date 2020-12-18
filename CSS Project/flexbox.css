@@ -1,0 +1,128 @@
+
+/* flexbox1 */
+
+/* .flexcontainer1{
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+.box1{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  order: 3;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.box2{
+  width: 300px;
+  height: 300px;
+  background-color: cyan;
+  order: 1;
+  flex-grow: 1;
+}
+.box3{
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+  order: 2;
+  flex-grow: 2;
+} */
+
+.flexcontainer1{
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+.box1{
+  background-color: pink;
+  margin: 10px;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+.box2{
+  background-color: cyan;
+  margin: 10px;
+  flex-basis: 100%;
+}
+.box3{
+  background-color: orange;
+  margin: 10px;
+  flex-basis: 60%;
+  flex-shrink: 2;
+  flex: 0 1 auto; /*grow shrink basis*/
+}
+
+/* -------------------------------------------------------------------------- */
+/* flexbox2 */
+.container2{
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap; /*direction wrap*/
+}
+.box{
+  border: 1px solid blue;
+  padding: 10px;
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+
+.flexcontainer2{
+  background-color:  orange;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border: 1px solid blue;
+}
+
+/* -------------------------------------------------------------------------- */
+/* flexbox3 */
+.container3{
+  background-color:  orange;
+  height: 200px;
+  display: flex;
+}
+.itemx{
+  width: 50px;
+  /* height: 50px; */
+  background-color: pink;
+  border: 1px solid blue;
+}
+.itema{
+  height: 50px;
+  align-self: center;
+}
+.itemb{
+  height: 75px;
+  align-self: flex-end;
+}
+.itemc{
+  height: 150px;
+  align-self: stretch;
+}
+
+
+.flexcontainer3{
+  background-color:  orange;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.itemy{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border: 1px solid blue;
+  flex-basis: 30%;
+  flex-shrink: 0;
+}

@@ -1,0 +1,12 @@
+
+li{
+  border: 2px solid blue;
+}
+
+#selector{
+  background: red;
+}
+
+.select{
+  text-decoration-line: underline;
+}

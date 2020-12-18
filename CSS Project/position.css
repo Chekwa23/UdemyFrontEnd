@@ -1,0 +1,27 @@
+
+.one{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: static;
+}
+.two{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  right: 30px;
+}
+.three{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  right: 30px;
+}
+.four{
+  width: 100px;
+  height: 100px;
+  background: green;
+  position: fixed;
+}

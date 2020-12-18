@@ -1,0 +1,61 @@
+
+.container{
+  border: 1px solid blue;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+
+  /* grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 100px 200px 300px; */
+  /* grid-template: 100px 200px 300px / 25% 25% 25%;*//*columns / rows*/
+  /* grid-template: 100px 200px 300px / 1fr 1fr 1fr; */
+  /* grid-template: 100px 200px 300px/ repeat(3, 1fr); */
+
+  /* grid-template-areas: "A C B" "D E F" "G H I" */
+  /* justify-items: start; */
+  /* align-items: start; */
+
+  /* grid-template: repeat(3, 100px)/ repeat(3, 100px); */
+  grid-template: 1fr/ repeat(auto-fill, 1fr);
+  height: 700px;
+  /* align-content: start; */
+
+}
+.box{
+  background-color: orange;
+  border: 1px solid blue;
+}
+
+/* .box7{
+  order: -1;
+  align-self: start;
+  justify-self: start;
+} */
+
+/* .box1{
+  grid-area: A;
+}
+.box2{
+  grid-area: B;
+}
+.box3{
+  grid-area: C;
+}
+.box4{
+  grid-area: D;
+}
+.box5{
+  grid-area: E;
+}
+.box6{
+  grid-area: F;
+}
+.box7{
+  grid-area: G;
+}
+.box8{
+  grid-area: H;
+}
+.box9{
+  grid-area: I;
+} */

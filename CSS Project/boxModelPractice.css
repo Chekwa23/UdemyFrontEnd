@@ -1,0 +1,40 @@
+
+body{
+  height: 100%;
+  margin-top: 100px;
+  background-color: #CCF2FF;
+}
+.sun{
+  width: 100px;
+  height: 100px;
+  background: #FFCC00;
+  border-radius: 50px;
+
+  box-shadow: 10px 10px 10px #E6B800;
+  margin-left: 100px;
+}
+.plane{
+  width: 400px;
+  height: 400px;
+  margin-left: 500px;
+}
+.mountains{
+  width: 70%;
+  height: 300px;
+  background-color: green;
+}
+#left{
+  float: left;
+  position: absolute;
+  /* right: 600px; */
+  border-radius: 0 100% 0 0;
+
+}
+#right{
+  float: right;
+  /* position: absolute; */
+  /* left: 600px; */
+  border-radius: 100% 0 0 0;
+
+
+}
